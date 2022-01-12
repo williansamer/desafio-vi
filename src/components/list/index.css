@@ -1,0 +1,8 @@
+.container-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 2, 141);
+  font-size: 1.5em;
+}

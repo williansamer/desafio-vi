@@ -1,0 +1,39 @@
+.container-add-item{
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container-add-item h2{
+  color: rgb(0, 2, 141);
+  font-size: 1.5em;
+}
+
+input{
+  margin: 5px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.task{
+  border: none;
+  background-color: rgb(211, 250, 253);
+  outline: 0;
+}
+
+.btn{
+  border: none;
+  background-color: #333;
+  color: rgb(211, 250, 253);
+  outline: 0;
+}
+.btn:hover{
+  background-color: rgb(211, 250, 253);
+  color: #333;
+  border: #333 1px solid;
+}
+.btn:active{
+  background-color: #333;
+  color: rgb(211, 250, 253);
+}
