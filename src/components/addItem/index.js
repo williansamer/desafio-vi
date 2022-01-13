@@ -11,10 +11,9 @@ export default function AddItem() {
   const {getLists, setGetLists} = useCustom(Context);
   const [text, setText] = useState("");
 
-  async function handleChange(e){
+  function handleChange(e){
     let t = e.target.value;
-    console.log(t)
-    await setText(e.target.value);
+    setText(e.target.value);
   }
 
   async function handleClick(e){
@@ -28,8 +27,7 @@ export default function AddItem() {
         done: false
       }
       await setGetLists([...getLists, newItem]);
-      await localStorage.setItem('lists', JSON.stringify(getLists));
-      //console.log(getLists)
+      
       setText('');
     }
   }
