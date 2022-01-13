@@ -1,10 +1,14 @@
 import React from 'react'
 import "./index.css"
+import ListItem from '../listItem'
 
 export default function header() {
   return (
-    <div className='container-list'>
+    <div className='container'>
       <h2>Lista de Tarefas</h2>
+      <ul className='container-list'>
+        <ListItem />
+      </ul>
     </div>
   )
 }

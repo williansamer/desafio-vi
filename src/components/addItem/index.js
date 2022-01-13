@@ -12,22 +12,22 @@ export default function AddItem() {
   const [text, setText] = useState("");
 
   function handleChange(e){
-    let t = e.target.value;
     setText(e.target.value);
   }
 
   async function handleClick(e){
     e.preventDefault();
     if(text !== ""){
-      const newItem = {
+      let newItem = {
         id: uuidv4(),
         text: text,
-        begin: true,
+        begin: false,
+        done: false,
         blocked: false,
-        done: false
+        color: "black"
       }
       await setGetLists([...getLists, newItem]);
-      
+
       setText('');
     }
   }
@@ -36,7 +36,7 @@ export default function AddItem() {
     <div className='container-add-item'>
       <h2>Adicionar Tarefa</h2>
       <form>
-        <input onChange={handleChange} className='task' type="text" value={text} placeholder="Tarefa" />
+        <input onChange={handleChange} required className='task' type="text" value={text} placeholder="Tarefa" />
         <input onClick={handleClick} className='btn' type="submit" value="Adicionar" />
       </form>
     </div>
