@@ -7,31 +7,31 @@ Aqui vai algumas coisas que precisamos que seja possível na aplicação e que v
 
 ## Requisitos:
 
-➔ Cadastrar tarefa;
-➔ Excluir tarefa;
-➔ Alterar tarefa;
-➔ Listagem de todas as tarefas;
-➔ Filtragem das tarefas
-➔ Mover a tarefa de status
+- Cadastrar tarefa;
+- Excluir tarefa;
+- Alterar tarefa;
+- Listagem de todas as tarefas;
+- Filtragem das tarefas
+- Mover a tarefa de status
 
 ## O que consegui fazer até o final do desafio:
 
-➔ Cadastrar tarefa;
-➔ Excluir tarefa;
-➔ Listagem de todas as tarefas;
-➔ Mover a tarefa de status
+- Cadastrar tarefa;
+- Excluir tarefa;
+- Listagem de todas as tarefas;
+- Mover a tarefa de status
 
 ## Observações a serem feitas:
 
-➔ Tentei fazer um site elegante e clean, consumindo um bom tempo em design.
-➔ Cadastro de tarefas OK. Confesso que gostaria de colocar também o nome de cada funcionário antes de cada tarefa. Eu iria fazer isto, porém por falta de tempo, não deu.
-➔ Excluir tarefa OK.
-➔ Listagem de todas as tarefas OK.
-➔ Mudanças de status de cada tarefa OK.
-➔ Status Iniciado, concluído, bloqueado, OK.
-➔ Alterar tarefa não fiz por falta de tempo.
-➔ Filtragem das tarefas não fiz por falta de tempo.
-➔ Organização do código nada do jeito que gostaria de fazer. Vou organizar o código de forma que seja possível um  melhor entendimento e leitura.
+- Tentei fazer um site elegante e clean, consumindo um bom tempo em design.
+- Cadastro de tarefas OK. Confesso que gostaria de colocar também o nome de cada funcionário antes de cada tarefa. Eu iria fazer isto, porém por falta de tempo, não deu.
+- Excluir tarefa OK.
+- Listagem de todas as tarefas OK.
+- Mudanças de status de cada tarefa OK.
+- Status Iniciado, concluído, bloqueado, OK.
+- Alterar tarefa não fiz por falta de tempo.
+- Filtragem das tarefas não fiz por falta de tempo.
+- Organização do código nada do jeito que gostaria de fazer. Vou organizar o código de forma que seja possível um  melhor entendimento e leitura.
 
 ### A PÁGINA NÃO ESTÁ ATUALIZANDO AUTOMATICAMENTE AO CADASTRAR UMA NOVA TAREFA. CLIQUE EM F5.
 
@@ -39,11 +39,11 @@ Aqui vai algumas coisas que precisamos que seja possível na aplicação e que v
 
 ## Linguagem utilizada:
 
-➔ ReactJs
+- ReactJs
 
 ## Armazenamento:
 
-➔ Local Storage
+- Local Storage
 
 ## Repositório:
 
