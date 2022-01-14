@@ -56,7 +56,8 @@ export default function ListItem() {
   }
 
   function handleUpdate(item){
-
+    item.updating = !item.updating;
+    console.log(item.updating)
   }
 
 

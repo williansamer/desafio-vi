@@ -4,6 +4,7 @@ export default function useCustom() {
 
   const [getLists, setGetLists] = useState([]);
   const [createTask, setCreateTask] = useState();
+  const [showModal, setShowModal] = useState(false);
 
   useEffect(()=>{
     const actualState = JSON.parse(localStorage.getItem('lists'));
@@ -12,12 +13,12 @@ export default function useCustom() {
     }
   }, [])
 
-  useEffect(async ()=>{
+  useEffect(()=>{
     if(getLists.length > 0){
-      await localStorage.setItem('lists', JSON.stringify(getLists));
+      localStorage.setItem('lists', JSON.stringify(getLists));
     }
     
   }, [getLists])
 
-  return {getLists, setGetLists, createTask, setCreateTask}
+  return {getLists, setGetLists, createTask, setCreateTask, showModal, setShowModal}
 }

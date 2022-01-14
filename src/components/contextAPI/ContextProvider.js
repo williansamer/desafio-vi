@@ -5,10 +5,10 @@ const Context = createContext();
 
 export default function ContextProvider({children}) {
 
-  const {getLists, setGetLists, createTask, setCreateTask} = useCustom(Context)
+  const {getLists, setGetLists, createTask, setCreateTask, showModal, setShowModal} = useCustom(Context)
 
   return (
-    <Context.Provider value={{getLists, setGetLists, createTask, setCreateTask}}>
+    <Context.Provider value={{getLists, setGetLists, createTask, setCreateTask, showModal, setShowModal}}>
       {children}
     </Context.Provider>
   )

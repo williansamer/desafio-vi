@@ -24,7 +24,8 @@ export default function AddItem() {
         begin: false,
         done: false,
         blocked: false,
-        color: "black"
+        color: "black",
+        updating: false
       }
       await setGetLists([...getLists, newItem]);
 
