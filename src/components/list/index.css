@@ -1,16 +1,16 @@
-.container{
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.container h2{
+.container h2 {
   font-size: 35px;
   color: rgb(0, 2, 141);
 }
 
-.container-list{
+.container-list {
   margin-top: 20px;
   display: flex;
   flex-direction: column;

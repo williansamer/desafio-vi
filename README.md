@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Desafio - Cadastros de Tarefas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O seu desafio é criar uma aplicação web para realizar cadastros de tarefas, onde cada desenvolvedor do time possa entrar na aplicação e cadastrar suas respectivas tarefas e em qual status está tarefa encontra-se (Ex: concluída, iniciada, bloqueada...).
+Aqui vai algumas coisas que precisamos que seja possível na aplicação e que você desenvolva junto com ela...
 
-## Available Scripts
+> Para rodar a aplicação, basta executar o comando: yarn start
 
-In the project directory, you can run:
+## Requisitos:
 
-### `yarn start`
+➔ Cadastrar tarefa;
+➔ Excluir tarefa;
+➔ Alterar tarefa;
+➔ Listagem de todas as tarefas;
+➔ Filtragem das tarefas
+➔ Mover a tarefa de status
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## O que consegui fazer até o final do desafio:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+➔ Cadastrar tarefa;
+➔ Excluir tarefa;
+➔ Listagem de todas as tarefas;
+➔ Mover a tarefa de status
 
-### `yarn test`
+## Observações a serem feitas:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+➔ Tentei fazer um site elegante e clean, consumindo um bom tempo em design.
+➔ Cadastro de tarefas OK. Confesso que gostaria de colocar também o nome de cada funcionário antes de cada tarefa. Eu iria fazer isto, porém por falta de tempo, não deu.
+➔ Excluir tarefa OK.
+➔ Listagem de todas as tarefas OK.
+➔ Mudanças de status de cada tarefa OK.
+➔ Status Iniciado, concluído, bloqueado, OK.
+➔ Alterar tarefa não fiz por falta de tempo.
+➔ Filtragem das tarefas não fiz por falta de tempo.
+➔ Organização do código nada do jeito que gostaria de fazer. Vou organizar o código de forma que seja possível um  melhor entendimento e leitura.
 
-### `yarn build`
+### A PÁGINA NÃO ESTÁ ATUALIZANDO AUTOMATICAMENTE AO CADASTRAR UMA NOVA TAREFA. CLIQUE EM F5.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Resumindo, gostaria de agradecer pelo desafio. Confesso que não estou satisfeito pois gostaria de fazer muito mais coisas. Porém, o grande tempo adquirido nos layouts e na tentativa frustrada de fazer o site atualizar automaticamente ao cadastrar uma nova tarefa, não deu para dar continuidade, como disse, por entregar na hora estipulada. Continuarei fazendo melhoramentos durante o dia. Se desejar o desafio pronto do jeito que quero, eu envio a vocês.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Linguagem utilizada:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+➔ ReactJs
 
-### `yarn eject`
+## Armazenamento:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+➔ Local Storage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Repositório:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://github.com/williansamer/desafio-vi
